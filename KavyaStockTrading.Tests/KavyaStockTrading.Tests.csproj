@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FirstMVCApplication\KavyaStockTrading.csproj">
+    <ProjectReference Include="..\KavyaStockTrading\KavyaStockTrading.csproj">
       <Project>{719B3389-A3A7-4721-BC84-137EE8678B68}</Project>
       <Name>KavyaStockTrading</Name>
     </ProjectReference>

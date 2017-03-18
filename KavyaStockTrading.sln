@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KavyaStockTrading", "FirstMVCApplication\KavyaStockTrading.csproj", "{719B3389-A3A7-4721-BC84-137EE8678B68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KavyaStockTrading", "KavyaStockTrading\KavyaStockTrading.csproj", "{719B3389-A3A7-4721-BC84-137EE8678B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KavyaStockTrading.Tests", "FirstMVCApplication.Tests\KavyaStockTrading.Tests.csproj", "{33FBD9D2-E5C0-4E21-B0CE-261F2CDE15A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KavyaStockTrading.Tests", "KavyaStockTrading.Tests\KavyaStockTrading.Tests.csproj", "{33FBD9D2-E5C0-4E21-B0CE-261F2CDE15A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
