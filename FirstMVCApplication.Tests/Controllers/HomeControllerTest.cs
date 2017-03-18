@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FirstMVCApplication;
-using FirstMVCApplication.Controllers;
+using KavyaStockTrading;
+using KavyaStockTrading.Controllers;
 
-namespace FirstMVCApplication.Tests.Controllers
+namespace KavyaStockTrading.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

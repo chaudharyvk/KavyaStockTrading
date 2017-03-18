@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(FirstMVCApplication.Startup))]
-namespace FirstMVCApplication
+[assembly: OwinStartupAttribute(typeof(KavyaStockTrading.Startup))]
+namespace KavyaStockTrading
 {
     public partial class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace FirstMVCApplication.Models
+namespace KavyaStockTrading.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

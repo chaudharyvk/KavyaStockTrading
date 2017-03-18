@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using FirstMVCApplication.Models;
+using KavyaStockTrading.Models;
 
-namespace FirstMVCApplication
+namespace KavyaStockTrading
 {
     public class EmailService : IIdentityMessageService
     {

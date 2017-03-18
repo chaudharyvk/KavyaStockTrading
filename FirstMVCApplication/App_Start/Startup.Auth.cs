@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using FirstMVCApplication.Models;
+using KavyaStockTrading.Models;
 
-namespace FirstMVCApplication
+namespace KavyaStockTrading
 {
     public partial class Startup
     {

@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using FirstMVCApplication.Models;
+using KavyaStockTrading.Models;
 
-namespace FirstMVCApplication.Controllers
+namespace KavyaStockTrading.Controllers
 {
     [Authorize]
     public class AccountController : Controller
