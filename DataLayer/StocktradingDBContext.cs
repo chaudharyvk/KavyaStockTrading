@@ -12,7 +12,7 @@ namespace DataLayer
     {
         public StocktradingDBContext() : base("StocktradingConnectionstring")
         {
-                
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<StocktradingDBContext, DataLayer.Migrations.Configuration>("StocktradingConnectionstring"));
         }
 
         public DbSet<RegisterUser> RegisterUsers { get; set; }

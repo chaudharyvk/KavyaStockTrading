@@ -15,7 +15,7 @@ namespace Database
 
             using (var context = new StocktradingDBContext())
             {
-                context.RegisterUsers.Add(new RegisterUser() { EmailId = "sdfsdfasf@gmai.com" });
+                context.RegisterUsers.Add(new RegisterUser() { EmailId = "sdfsdfasf@gmai.com" ,Password="fdfdfdfdf"});
                 context.SaveChanges();
             }
         }

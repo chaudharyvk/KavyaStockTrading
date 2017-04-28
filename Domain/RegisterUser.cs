@@ -11,6 +11,8 @@ namespace Domain
         public int RegisterUser_ID { get; set; }
         public string EmailId { get; set; }
 
+        public string Password { get; set; }
+
 
     }
 }
