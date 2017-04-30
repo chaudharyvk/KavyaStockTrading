@@ -1,14 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Web;
+﻿using System;
 using System.Web.Mvc;
 using Microsoft.Extensions.Configuration;
 using System.IO;
-using KavyaStockTrading.Models.AVDataServiceModel;
-using KavyaStockTrading.Common;
+using MarketDataAPI.Common;
+using MarketDataAPI.AVDataServiceModel;
 
 namespace KavyaStockTrading.Controllers
 {

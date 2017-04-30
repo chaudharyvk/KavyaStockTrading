@@ -1,7 +1,7 @@
 ﻿using System;
 using RestSharp;
 
-namespace KavyaStockTrading.Common
+namespace MarketDataAPI.Common
 {
     public abstract class AvService
     {

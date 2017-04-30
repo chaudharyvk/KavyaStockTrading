@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace KavyaStockTrading.Models.AVDataServiceModel
+namespace MarketDataAPI.AVDataServiceModel
 {
     public class AvResponse
     {

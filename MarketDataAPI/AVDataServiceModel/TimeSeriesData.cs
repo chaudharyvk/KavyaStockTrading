@@ -2,7 +2,7 @@
 using System.Text;
 using Newtonsoft.Json;
 
-namespace KavyaStockTrading.Models.AVDataServiceModel
+namespace MarketDataAPI.AVDataServiceModel
 {
     [JsonConverter(typeof(TimeSeriesDataConverter))]
     public class TimeSeriesData

@@ -1,4 +1,4 @@
-﻿namespace KavyaStockTrading.Common
+﻿namespace MarketDataAPI.Common
 {
     public class Constants
     {

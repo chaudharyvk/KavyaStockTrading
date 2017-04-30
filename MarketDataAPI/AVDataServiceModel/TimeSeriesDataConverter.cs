@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 
-namespace KavyaStockTrading.Models.AVDataServiceModel
+namespace MarketDataAPI.AVDataServiceModel
 {
     public class TimeSeriesDataConverter : CustomCreationConverter<TimeSeriesData>
     {

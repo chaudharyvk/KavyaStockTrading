@@ -2,9 +2,9 @@
 
 using Newtonsoft.Json;
 using RestSharp;
-using KavyaStockTrading.Models.AVDataServiceModel;
+using MarketDataAPI.AVDataServiceModel;
 
-namespace KavyaStockTrading.Common
+namespace MarketDataAPI.Common
 {
 
     public enum IntradayInterval

@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace KavyaStockTrading.Models.AVDataServiceModel
+namespace MarketDataAPI.AVDataServiceModel
 {
     public class TimeSeriesValue
     {

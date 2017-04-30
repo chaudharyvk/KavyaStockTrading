@@ -1,8 +1,8 @@
 ﻿
-using KavyaStockTrading.Models.AVDataServiceModel;
+using MarketDataAPI.AVDataServiceModel;
 using RestSharp;
 
-namespace KavyaStockTrading.Common
+namespace MarketDataAPI.Common
 {
     public class TechnicalIndicator : AvService
     {

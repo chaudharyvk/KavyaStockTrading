@@ -303,12 +303,6 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Common\AvService.cs" />
-    <Compile Include="Common\Constants.cs" />
-    <Compile Include="Common\RestClientExtensions.cs" />
-    <Compile Include="Common\SectorPerformance.cs" />
-    <Compile Include="Common\TechnicalIndicator.cs" />
-    <Compile Include="Common\TimeSeries.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -317,10 +311,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AVDataServiceModel\AvResponse.cs" />
-    <Compile Include="Models\AVDataServiceModel\TimeSeriesData.cs" />
-    <Compile Include="Models\AVDataServiceModel\TimeSeriesDataConverter.cs" />
-    <Compile Include="Models\AVDataServiceModel\TimeSeriesValue.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\RegisterUserViewModel.cs" />
@@ -406,6 +396,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MarketDataAPI\MarketDataAPI.csproj">
+      <Project>{42e84127-7b80-45af-8440-4cca03e6a904}</Project>
+      <Name>MarketDataAPI</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
